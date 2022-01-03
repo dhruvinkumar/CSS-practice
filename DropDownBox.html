@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Box</title>
+    <style>
+     .main{
+         display: inline-block;
+         margin-left: 300px;
+         position: fixed;
+     }
+     .btn{
+        width: 150px;
+        height: 50px;  padding: 5px;
+        background: #4CAF50;
+        display: block;
+        border-top-right-radius:5px;
+        border-top-left-radius:5px;
+        border: 0px solid #4CAF50;
+        
+     }
+      .box{
+          display: block;
+          height: 25px;
+          padding: 5px;
+          text-align: center;
+          text-decoration: none;
+      }
+     .box:hover{background-color: #f1f1f1}
+     .main:hover .container{display: block;}
+    .container{
+    
+        width: 150px;
+         box-shadow: 0 5px 10px rgba(128, 128, 128,.7);
+        display: none;
+        border-bottom-right-radius:5px;
+        border-bottom-left-radius:5px;
+    }
+  
+    </style>
+</head>
+<body>
+    <div class="main">
+    <button class="btn">Dropdown Box</button>
+       <div class="container">
+        <a href="" class="box">Link1</a>
+        <a href="#" class="box">Link2</a>
+        <a href="#" class="box">Link3</a>
+        </div>
+        </div>
+    
+</body>
+</html>

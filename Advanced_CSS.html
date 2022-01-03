@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            margin: auto;
+            width: 625px;
+            height: 650px;
+            border: 2px solid gray;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgb(94, 93, 93);
+        }
+
+        .b1 {
+
+            height: 75px;
+            width: 75px;
+            margin-top: auto;
+            margin-left: 37.5px;
+            border-radius: 10px;
+            text-align: center;
+            display: inline-block;
+            transition: background .5s, box-shadow .5s;
+
+        }
+
+        .b2 {
+            border-radius: 10px;
+
+            margin-top: 275.5px;
+            height: 75px;
+            width: 75px;
+            display: inline-block;
+            margin-left: 37.5px;
+            transition: background .5s, box-shadow .5s;
+        }
+
+        .b3 {
+            margin-top: 275.5px;
+            margin-left: 37.5px;
+
+            height: 75px;
+            width: 75px;
+            display: inline-block;
+            border-radius: 10px;
+            transition: background .5s, box-shadow .5s;
+        }
+
+        .b4 {
+
+            border-radius: 10px;
+            margin-top: 275.5px;
+            height: 75px;
+            width: 75px;
+            display: inline-block;
+            margin-left: 37.5px;
+            text-align: center;
+            transition: background .5s, box-shadow .5s;
+        }
+
+        .b5 {
+            border-radius: 10px;
+            margin-top: 275.5px;
+            height: 75px;
+            width: 75px;
+            display: inline-block;
+            margin-left: 37.5px;
+            text-align: center;
+            transition: background .5s, box-shadow .5s;
+        }
+
+        .b1:hover {
+            background: #F52b57;
+            box-shadow: 0 15px 25px #F53b5799;
+
+
+        }
+
+        .b1::after {
+            transition: background 1s;
+            transition: box-shadow .12s;
+        }
+
+        .b2:hover {
+            background: #67bcf5;
+            box-shadow: 0 15px 25px #77b9e6e5;
+        }
+
+        .b3:hover {
+            background: #fff200;
+            box-shadow: 0 15px 25px #cfcd4d;
+        }
+
+        .b4:hover {
+            background: #55f597;
+            box-shadow: 0 15px 25px rgb(77, 223, 138, .7);
+        }
+
+        .b5:hover {
+            background: #9c88ff;
+            box-shadow: 0 15px 25px #8c7ae6;
+
+        }
+
+        .i1 {
+            margin: 25px 25px;
+            height: 25px;
+            width: 25px;
+        }
+
+        .b1:hover .i1 {
+            margin: 19px 19px;
+            height: 37px;
+            width: 37px;
+
+        }
+
+        .i2 {
+            margin: 25px 25px;
+            height: 25px;
+            width: 25px;
+        }
+
+        .b2:hover .i2 {
+            margin: 19px 19px;
+            height: 37px;
+            width: 37px;
+        }
+
+        .i3 {
+            margin: 25px 25px;
+            height: 25px;
+            width: 25px;
+        }
+
+        .b3:hover .i3 {
+            margin: 19px 19px;
+            height: 37px;
+            width: 37px;
+        }
+
+        .i4 {
+            margin: 25px 25px;
+            height: 25px;
+            width: 25px;
+        }
+
+        .b4:hover .i4 {
+            margin: 19px 19px;
+            height: 37px;
+            width: 37px;
+        }
+
+        .i5 {
+            margin: 25px 25px;
+            height: 25px;
+            width: 25px;
+        }
+
+        .b5:hover .i5 {
+            margin: 19px 19px;
+            height: 37px;
+            width: 37px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="b1">
+            <ion-icon name="home" class="i1"></ion-icon>
+        </div>
+        <div class="b2">
+            <ion-icon name="contact" class="i2"></ion-icon>
+        </div>
+        <div class="b3">
+            <ion-icon name="chatbubbles" class="i3"></ion-icon>
+        </div>
+        <div class="b4">
+            <ion-icon name="settings" class="i4"></ion-icon>
+        </div>
+        <div class="b5">
+            <ion-icon name="mic" class="i5"></ion-icon>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>
